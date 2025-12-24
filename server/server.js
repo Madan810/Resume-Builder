@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 7001;
 // Middlewares
 // ===============================
 app.use(cors({
-  origin: "http://localhost:5173", // Vite frontend
+  origin: ["http://localhost:5173", "https://resume-builder-new-xi.vercel.app"],
   credentials: true
 }));
 
